@@ -101,7 +101,7 @@ def printexp(tree):
     print(tree.getRootVal(), end=' ')
     if tree.rightChild:
         printexp(tree.getRightChild())
-        print(')', end=' ') 
+        print(')', end=' ')
 
 def printexp(tree):
     sVal = ""
